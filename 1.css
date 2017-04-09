@@ -1,0 +1,97 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: block;
+  background-color: #ffc400;
+  font-size: 24px;
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 0.5;
+  padding: 20px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 2000px;
+  padding: 2px;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  color: #ffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+  background-color: #ffc400;
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 3.75;
+  zoom: 1.25;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.por {
+  display: inline-block;
+}
+
+body {
+  background-color: #fff;
+}
+
+.port {
+  display: flex;
+  justify-content: space-around;
+}
+
+.por {
+  flex-grow: 1.5;
+  flex-basis: 0;
+  margin: 20px;
+  padding: 10px;
+  background-color: #ffc400;
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 5.75;
+}
+
+img {
+  margin: auto;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+}
+
+.input {
+  background-color: #ffc400;
+  margin: auto;
+  width: 100%;
+  border-color: #e1e1e1;
+  border-style: solid;
+  border-width: 5.75;
+  justify-content: center;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
